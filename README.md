@@ -1,21 +1,21 @@
-📊 Task 6: Sales Trend Analysis Using Aggregations (ELEVATE LABBS INTERNSHIP)
-🧠 Objective
+##📊 Task 6: Sales Trend Analysis Using Aggregations (ELEVATE LABBS INTERNSHIP)
+##🧠 Objective
 Analyze monthly revenue and order volume trends using SQL aggregations on an online sales dataset.
 
-🛠️ Tools Used
+##🛠️ Tools Used
 - SQLite (via strftime() for date extraction and formatting)
 - SQL for data manipulation and aggregation
 - Dataset:
 - Orders.csv: Contains Order_ID, Order_Date (in DD-MM-YYYY format)
 - Details.csv: Contains Order_ID, Sales
   
-📁 Files Included
+##📁 Files Included
 - task6_sales_trend.sql: SQL script with all steps
 - Orders.csv, Details.csv: Sample datasets
 - screenshots/: screenshots of query results
 - README.md: This documentation
   
-📌 Key Steps & Logic
+##📌 Key Steps & Logic
 1. 📅 Date Conversion
 Converted Order_Date from DD-MM-YYYY to YYYY-MM-DD using string manipulation for compatibility with strftime().
 <img width="2879" height="1799" alt="Taks 6 A" src="https://github.com/user-attachments/assets/4f5f1205-72b9-4f53-a1a9-324710caa2d9" />
@@ -41,13 +41,13 @@ Applied filters to limit results to specific time periods for focused analysis.
 <img width="2877" height="1799" alt="Task 6 F" src="https://github.com/user-attachments/assets/e7295b70-1e3b-4f35-89ac-cc05388973c9" />
 
 
-❓ Interview Prep Highlights
+##❓ Interview Prep Highlights
 - Difference between COUNT(*) vs COUNT(DISTINCT col)
 - Handling NULL values in aggregates
 - Role of GROUP BY vs ORDER BY
 - Extracting top 3 months by revenue using ORDER BY SUM(Sales) DESC LIMIT 3
   
-✅ Outcome
+##✅ Outcome
 - Learned how to group data by time dimensions
 - Practiced SQL joins, aggregations, and filtering
 - Built a reusable script for sales trend analysis
